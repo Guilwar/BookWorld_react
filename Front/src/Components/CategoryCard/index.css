@@ -1,0 +1,25 @@
+.grid-element-category-card {
+  border-radius: 5px;
+  width: 375px;
+  height: 220px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.grid-element-category-card:hover {
+  scale: 1.05;
+}
+
+.card-title-category-card {
+  background-color: rgb(206, 206, 77);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  font-size: large;
+}
+
+.image-category-card {
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

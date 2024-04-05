@@ -1,0 +1,105 @@
+.assistance-button-assistance {
+  position: fixed;
+  top: 95%;
+  left: 97%;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 0px;
+}
+
+.assistance-button-assistance:hover {
+  scale: 1.1;
+}
+
+.open-background-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.open-assistance-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.title-assistance-popup {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title-assistance {
+  color: red;
+  margin-left: 5%;
+  font-size: large;
+}
+
+button.close-popup-assistance {
+  width: 2rem;
+  height: 2rem;
+  left: auto;
+  background-color: transparent;
+  border: 0px;
+}
+
+button.close-popup-assistance svg:hover {
+  transform: scale(1.5);
+  stroke: red;
+}
+
+form.container-form-assistance {
+  display: flex;
+  padding: 10%;
+  row-gap: 1.5rem;
+  flex-direction: column;
+}
+
+.email-assistance {
+  border-bottom: 1px solid black;
+}
+
+textarea.textarea-assistance {
+  width: 100%;
+  height: 7.5rem;
+  background-color: white;
+  border: 1px solid red;
+  font-size: large;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+textarea.textarea-assistance::placeholder {
+  color: grey;
+  font-weight: 500;
+}
+
+button.confirm-assistance-button {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  width: 50%;
+  height: 2rem;
+  margin-left: auto;
+  font-weight: 900;
+}
+
+button.confirm-assistance-button:hover {
+  background-color: rgba(128, 128, 128, 0.568);
+}

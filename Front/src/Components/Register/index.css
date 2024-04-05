@@ -1,0 +1,91 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #88efeb;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #0c0a09;
+}
+
+.popup-register {
+  display: block;
+}
+
+.popup-navbar {
+  background-color: #22e2dc;
+  width: 100%;
+  height: 10%;
+  /* background-color: rgb(27, 148, 75); */
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.title-navbar {
+  text-align: center;
+}
+
+.popup-elements {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.insertion-box {
+  border: 0px;
+  background-color: transparent;
+  width: 50%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 2px 3px;
+}
+
+button.registration-button {
+  background-color: rgb(206, 206, 77);
+  border: 0px;
+  padding: 2px;
+  width: 80%;
+  height: 10%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 3px 5px;
+}
+
+.registration-button:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #263837;
+}
+
+.bottom-text {
+  text-decoration: underline;
+}
+
+.bottom-text-register {
+  font-weight: bold;
+}
+
+.bottom-text-link-register {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.bottom-text-link-register:hover {
+  color: #263837;
+  cursor: pointer;
+}

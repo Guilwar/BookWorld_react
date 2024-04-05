@@ -1,0 +1,507 @@
+[
+  {
+    "id": 0,
+    "title": "L'isola misteriosa",
+    "image": "./src/imgs/avventura/avventura1.jpg",
+    "age": 12,
+    "description": "Un gruppo di naufraghi si ritrova su un'isola apparentemente deserta, ma presto scoprono che nasconde molti segreti e pericoli.",
+    "author": "Jules Verne"
+  },
+  {
+    "id": 1,
+    "title": "L'isola del tesoro",
+    "image": "./src/imgs/avventura/avventura2.jpg",
+    "age": 12,
+    "description": "Un giovane ragazzo, Jim Hawkins, trova una mappa del tesoro e parte per una straordinaria avventura alla ricerca di ricchezze nascoste e pirati spietati."
+  },
+  {
+    "id": 2,
+    "title": "Le montagne della follia",
+    "image": "./src/imgs/avventura/avventura3.jpg",
+    "age": 14,
+    "description": "Una spedizione scientifica in Antartide scopre antiche rovine e creature misteriose, portando alla luce orrori che sfidano la comprensione umana."
+  },
+  {
+    "id": 3,
+    "title": "Le avventure di Tom Sawyer",
+    "image": "./src/imgs/avventura/avventura4.jpg",
+    "age": 12,
+    "description": "Le avventure di un giovane ragazzo ribelle nel Sud degli Stati Uniti nel XIX secolo, tra ingegnose bravate e misteri da risolvere."
+  },
+  {
+    "id": 4,
+    "title": "Le mille e una notte",
+    "image": "./src/imgs/avventura/avventura5.jpg",
+    "age": 14,
+    "description": "Una raccolta di racconti orientali, ricca di avventure, magia e intrighi, narrati dalla leggendaria Sherazade per sopravvivere."
+  },
+  {
+    "id": 5,
+    "title": "Il signore degli anelli",
+    "image": "./src/imgs/avventura/avventura6.jpg",
+    "age": 14,
+    "description": "Una trilogia epica che segue le gesta di Frodo Baggins nella sua missione per distruggere l'Anello del Potere e sconfiggere il Signore Oscuro Sauron."
+  },
+  {
+    "id": 6,
+    "title": "Il giro del mondo in 80 giorni",
+    "image": "./src/imgs/avventura/avventura7.jpg",
+    "age": 12,
+    "description": "Il ricco eccentrico Phileas Fogg scommette che può circumnavigare il globo in soli 80 giorni, intraprendendo un viaggio avventuroso e pieno di ostacoli."
+  },
+  {
+    "id": 7,
+    "title": "La storia infinita",
+    "image": "./src/imgs/avventura/avventura8.jpg",
+    "age": 12,
+    "description": "Un giovane ragazzo, Bastian, si immerge in un libro magico e fantastico dove scopre di avere un ruolo cruciale nella lotta per salvare il mondo di Fantasia."
+  },
+  {
+    "id": 8,
+    "title": "Viaggio al centro della terra",
+    "image": "./src/imgs/avventura/avventura9.jpg",
+    "age": 12,
+    "description": "Un professore e i suoi compagni intraprendono un incredibile viaggio verso il centro della terra, scoprendo mondi sotterranei pieni di meraviglie e pericoli."
+  },
+  {
+    "id": 9,
+    "title": "Le avventure di Huckleberry Finn",
+    "image": "./src/imgs/avventura/avventura10.jpg",
+    "age": 12,
+    "description": "Le avventure di un giovane ragazzo ribelle, Huck Finn, e del suo amico Jim, un fuggitivo schiavo, lungo il fiume Mississippi."
+  },
+  {
+    "id": 10,
+    "title": "La strada",
+    "image": "./src/imgs/avventura/avventura11.jpg",
+    "age": 14,
+    "description": "In un mondo post-apocalittico, un padre e suo figlio intraprendono un viaggio disperato attraverso un paesaggio desolato alla ricerca di speranza e salvezza."
+  },
+  {
+    "id": 11,
+    "title": "Il vecchio e il mare",
+    "image": "./src/imgs/avventura/avventura12.jpg",
+    "age": 14,
+    "description": "La struggente storia di Santiago, un vecchio pescatore cubano, e la sua epica lotta con un gigantesco pesce spada nel vasto oceano."
+  },
+  {
+    "id": 12,
+    "title": "Lord of the flies",
+    "image": "./src/imgs/fantascienza/fantascienza1.jpg",
+    "age": 14,
+    "description": "Dopo un incidente aereo, un gruppo di ragazzi si ritrova su un'isola deserta e deve lottare per la sopravvivenza, ma il conflitto interno e la disperazione portano alla barbarie."
+  },
+  {
+    "id": 13,
+    "title": "La mano sinistra delle tenebre",
+    "image": "./src/imgs/fantascienza/fantascienza2.jpg",
+    "age": 16,
+    "description": "In un pianeta gelido e lontano, un ambasciatore umano deve navigare in una società aliena senza genere per garantire un'alleanza cruciale."
+  },
+  {
+    "id": 14,
+    "title": "Blindsight",
+    "image": "./src/imgs/fantascienza/fantascienza3.jpg",
+    "age": 16,
+    "description": "In un futuro inquietante, un equipaggio di astronauti viene inviato per incontrare un'entità aliena con capacità di comunicazione incomprensibili."
+  },
+  {
+    "id": 15,
+    "title": "Ender's game",
+    "image": "./src/imgs/fantascienza/fantascienza4.jpg",
+    "age": 14,
+    "description": "Un giovane genio militare, Ender Wiggin, viene reclutato per allenare in segreto e guidare le forze umane nella guerra contro una razza aliena ostile."
+  },
+  {
+    "id": 16,
+    "title": "Brave new world",
+    "image": "./src/imgs/fantascienza/fantascienza5.jpg",
+    "age": 16,
+    "description": "In una società distopica futuristica, il controllo totale e il conformismo sono la norma, ma un individuo inizia a mettere in discussione il sistema."
+  },
+  {
+    "id": 17,
+    "title": "1984",
+    "image": "./src/imgs/fantascienza/fantascienza6.jpg",
+    "age": 16,
+    "description": "Nel regime totalitario di Oceania, un uomo cerca di resistere alla sorveglianza onnipresente e alla manipolazione mentale del governo."
+  },
+  {
+    "id": 18,
+    "title": "Dune",
+    "image": "./src/imgs/fantascienza/fantascienza7.jpg",
+    "age": 16,
+    "description": "In un lontano futuro, il giovane Paul Atreides deve navigare nelle politiche complesse e nelle lotte per il potere su un pianeta desertico ricco di misteri."
+  },
+  {
+    "id": 19,
+    "title": "Childhood's end",
+    "image": "./src/imgs/fantascienza/fantascienza8.jpg",
+    "age": 16,
+    "description": "Gli umani devono affrontare una nuova era di evoluzione sotto la guida di esseri alieni misteriosi che portano cambiamenti radicali alla società terrestre."
+  },
+  {
+    "id": 20,
+    "title": "The hitch-hiker's guide to the galaxy",
+    "image": "./src/imgs/fantascienza/fantascienza9.jpg",
+    "age": 14,
+    "description": "Un viaggiatore spaziale terrestre viene coinvolto in avventure assurde e bizzarre mentre esplora l'universo con una guida galattica per autostoppisti."
+  },
+  {
+    "id": 21,
+    "title": "La rifondazione di dune",
+    "image": "./src/imgs/fantascienza/fantascienza10.jpg",
+    "age": 16,
+    "description": "Seguito della saga di Dune, con intrighi politici, guerra e profonde riflessioni sulla religione, la natura umana e il destino dell'universo."
+  },
+  {
+    "id": 22,
+    "title": "Darksaber",
+    "image": "./src/imgs/fantascienza/fantascienza11.jpg",
+    "age": 14,
+    "description": "In un universo di Star Wars, Luke Skywalker e i suoi alleati devono affrontare una nuova minaccia con l'ascesa di un'arma temibile."
+  },
+  {
+    "id": 23,
+    "title": "La missione enceladd",
+    "image": "./src/imgs/fantascienza/fantascienza12.jpg",
+    "age": 14,
+    "description": "Una spedizione verso la luna di Saturno, Encelado, rivela misteri sconvolgenti che mettono in discussione le fondamenta della conoscenza umana."
+  },
+  {
+    "id": 24,
+    "title": "Sherlock Holmes",
+    "image": "./src/imgs/giallo/giallo1.jpg",
+    "age": 14,
+    "description": "Le indagini del celebre detective Sherlock Holmes e del suo fedele compagno, il dottor Watson, risolvendo misteri intricati e crimini apparentemente insolubili."
+  },
+  {
+    "id": 25,
+    "title": "The salient patient",
+    "image": "./src/imgs/giallo/giallo2.jpg",
+    "age": 16,
+    "description": "In una clinica psichiatrica, un paziente apparentemente normale si rivela essere un maestro manipolatore, coinvolgendo uno psichiatra in un pericoloso gioco mentale."
+  },
+  {
+    "id": 26,
+    "title": "The last murder at the end of the world",
+    "image": "./src/imgs/giallo/giallo3.jpg",
+    "age": 16,
+    "description": "In un remoto villaggio artico, un detective deve risolvere un omicidio complicato e oscuro che rivela segreti sepolti da tempo."
+  },
+  {
+    "id": 27,
+    "title": "The last Mrs. Parrish",
+    "image": "./src/imgs/giallo/giallo4.jpg",
+    "age": 16,
+    "description": "Una donna ambiziosa si infiltra nella vita di una ricca famiglia con l'intento di rubare il marito, ma presto scopre che anche lei è una pedina in un gioco pericoloso."
+  },
+  {
+    "id": 28,
+    "title": "I delitti di Kingfisher Hill",
+    "image": "./src/imgs/giallo/giallo5.jpg",
+    "age": 16,
+    "description": "Il detective Hercule Poirot si trova alle prese con un intricato caso di omicidio su un lussuoso treno, dove ogni passeggero ha un motivo per commettere il crimine."
+  },
+  {
+    "id": 29,
+    "title": "L'ombra del delitto",
+    "image": "./src/imgs/giallo/giallo6.jpg",
+    "age": 16,
+    "description": "Una donna inizia a sospettare che il suo nuovo vicino di casa potrebbe essere un pericoloso assassino, ma le sue indagini mettono a rischio la sua stessa vita."
+  },
+  {
+    "id": 30,
+    "title": "The guest list",
+    "image": "./src/imgs/giallo/giallo7.jpg",
+    "age": 16,
+    "description": "Durante un matrimonio esclusivo su un'isola remota, segreti sepolti vengono alla luce e vecchie rivalità sfociano in un omicidio che sconvolge tutti gli invitati."
+  },
+  {
+    "id": 31,
+    "title": "L'assasino invisibile",
+    "image": "./src/imgs/giallo/giallo8.jpg",
+    "age": 16,
+    "description": "Un serial killer che lascia dietro di sé solo cadaveri invisibili mette a dura prova un detective e una profiler, sfidandoli a catturare un assassino che sembra impossibile da individuare."
+  },
+  {
+    "id": 32,
+    "title": "L'enigma dell'orologio spezzato",
+    "image": "./src/imgs/giallo/giallo9.jpg",
+    "age": 16,
+    "description": "Una giovane donna deve risolvere un misterioso omicidio legato a un antico orologio spezzato, scoprendo oscure verità nascoste nel passato della sua famiglia."
+  },
+  {
+    "id": 33,
+    "title": "La doppia vita di Sylvia West",
+    "image": "./src/imgs/giallo/giallo10.jpg",
+    "age": 16,
+    "description": "Dopo il sospetto suicidio di una famosa attrice, un reporter investigativo scopre un intricato intreccio di segreti, menzogne e tradimenti che potrebbe rivelare la verità."
+  },
+  {
+    "id": 34,
+    "title": "Il ritorno di Sherlock Holmes",
+    "image": "./src/imgs/giallo/giallo11.jpg",
+    "age": 14,
+    "description": "Sherlock Holmes torna per risolvere una serie di nuovi misteri, dimostrando ancora una volta la sua abilità deduttiva inconfondibile."
+  },
+  {
+    "id": 35,
+    "title": "Il segno dei quattro",
+    "image": "./src/imgs/giallo/giallo12.jpg",
+    "age": 14,
+    "description": "Sherlock Holmes e il dottor Watson devono risolvere il mistero di un tesoro scomparso, che porta a una catena di eventi che mettono a rischio la vita di tutti gli interessati."
+  },
+  {
+    "id": 36,
+    "title": "Frankenstein",
+    "image": "./src/imgs/horror/horror1.jpg",
+    "age": 16,
+    "description": "La storia di un giovane scienziato che, spinto dall'ambizione e dall'arroganza, crea una creatura mostruosa che si ribella al suo creatore."
+  },
+  {
+    "id": 37,
+    "title": "Hell House",
+    "image": "./src/imgs/horror/horror2.jpg",
+    "age": 16,
+    "description": "Un gruppo di persone viene invitato a trascorrere una notte in una casa infestata per investigare su fenomeni paranormali, ma si trovano faccia a faccia con terrore indicibile."
+  },
+  {
+    "id": 38,
+    "title": "The ritual",
+    "image": "./src/imgs/horror/horror3.jpg",
+    "age": 16,
+    "description": "Un gruppo di amici intraprende un escursione in una foresta remota, solo per scoprire che sono braccati da una presenza malvagia e antica che li spinge al limite della sopravvivenza."
+  },
+  {
+    "id": 39,
+    "title": "Be loved",
+    "image": "./src/imgs/horror/horror4.jpg",
+    "age": 16,
+    "description": "Una giovane donna si trasferisce in una casa isolata con il suo fidanzato, ma presto scopre che la casa nasconde segreti inquietanti e pericolosi."
+  },
+  {
+    "id": 40,
+    "title": "The turn of the screw",
+    "image": "./src/imgs/horror/horror5.jpg",
+    "age": 16,
+    "description": "Una giovane governante si trova a combattere contro forze oscure e presenze sinistre mentre cerca di proteggere due bambini in una casa infestata."
+  },
+  {
+    "id": 41,
+    "title": "The cabin at the end of the world",
+    "image": "./src/imgs/horror/horror6.jpg",
+    "age": 16,
+    "description": "Una famiglia in vacanza viene presa di mira da un gruppo di cultisti, che li costringe a prendere decisioni estreme per sopravvivere a un'apocalisse imminente."
+  },
+  {
+    "id": 42,
+    "title": "The Shining",
+    "image": "./src/imgs/horror/horror7.jpg",
+    "age": 16,
+    "description": "Un uomo assume il ruolo di guardiano invernale in un hotel isolato, solo per scoprire che l'hotel nasconde presenze malevole che minacciano la sua stessa sanità mentale."
+  },
+  {
+    "id": 43,
+    "title": "Son of Rosemary",
+    "image": "./src/imgs/horror/horror8.jpg",
+    "age": 16,
+    "description": "Il figlio di Rosemary, Adrian, cresciuto sotto l'influenza sinistra del padre demoniaco, si trova coinvolto in un destino oscuro e sinistro che minaccia il mondo intero."
+  },
+  {
+    "id": 44,
+    "title": "Bird Box",
+    "image": "./src/imgs/horror/horror9.jpg",
+    "age": 16,
+    "description": "In un mondo dove osservare creature misteriose porta alla pazzia e alla morte, una madre deve proteggere i suoi figli durante un viaggio pericoloso lungo un fiume."
+  },
+  {
+    "id": 45,
+    "title": "Psycho",
+    "image": "./src/imgs/horror/horror10.jpg",
+    "age": 16,
+    "description": "La storia di Norman Bates e del suo motel desolato, dove gli ospiti sono accolti con sorrisi sinistri e orrori indicibili."
+  },
+  {
+    "id": 46,
+    "title": "The exorcist",
+    "image": "./src/imgs/horror/horror11.jpg",
+    "age": 16,
+    "description": "Un sacerdote viene chiamato per esorcizzare una ragazza posseduta dal demonio, ma si trova ad affrontare un male antico e potente che mette a rischio la sua stessa fede."
+  },
+  {
+    "id": 47,
+    "title": "Misery",
+    "image": "./src/imgs/horror/horror12.jpg",
+    "age": 16,
+    "description": "Dopo un incidente d'auto, un famoso scrittore è tenuto prigioniero da una sua fan ossessiva, che lo costringe a scrivere il seguito del suo libro preferito."
+  },
+  {
+    "id": 48,
+    "title": "Romeo e Giulietta",
+    "image": "./src/imgs/romance/romance1.jpg",
+    "age": 14,
+    "description": "Una delle storie d'amore più celebri di tutti i tempi, che narra della passione travolgente e della tragedia di due giovani amanti divisi da famiglie nemiche."
+  },
+  {
+    "id": 49,
+    "title": "Orgoglio e pregiudizio",
+    "image": "./src/imgs/romance/romance2.jpg",
+    "age": 14,
+    "description": "Una commedia romantica classica che racconta la storia dell'orgogliosa Elizabeth Bennet e del riservato Mr. Darcy, i cui pregiudizi iniziali si trasformano in amore."
+  },
+  {
+    "id": 50,
+    "title": "Anna Karenina",
+    "image": "./src/imgs/romance/romance3.jpg",
+    "age": 16,
+    "description": "Un epico romanzo di amore e tragedia ambientato nella Russia aristocratica, che esplora le relazioni umane complesse e le conseguenze delle scelte sbagliate."
+  },
+  {
+    "id": 51,
+    "title": "Il diario di Mr. Darey",
+    "image": "./src/imgs/romance/romance4.jpg",
+    "age": 14,
+    "description": "La storia epistolare di un gentiluomo del XIX secolo, le cui vicende sentimentali e le riflessioni sull'amore e la società rivelano un ritratto intimo dell'epoca."
+  },
+  {
+    "id": 52,
+    "title": "La ragazza con l'orecchino di perla",
+    "image": "./src/imgs/romance/romance5.jpg",
+    "age": 14,
+    "description": "Inspirato al celebre dipinto di Vermeer, questo romanzo immagina la vita dietro le quinte di una delle opere d'arte più enigmatiche della storia."
+  },
+  {
+    "id": 53,
+    "title": "Le parole che non ti ho detto",
+    "image": "./src/imgs/romance/romance6.jpg",
+    "age": 14,
+    "description": "Una toccante storia d'amore tra due adolescenti, segnata dalla comunicazione non detta e dai segreti tenuti nascosti, che li spinge a confrontarsi con la verità."
+  },
+  {
+    "id": 54,
+    "title": "L'amore bugiardo",
+    "image": "./src/imgs/romance/romance7.jpg",
+    "age": 16,
+    "description": "Una storia di passione e inganno, dove le bugie e i tradimenti minacciano di distruggere una famiglia apparentemente perfetta."
+  },
+  {
+    "id": 55,
+    "title": "Carolina Moon",
+    "image": "./src/imgs/romance/romance8.jpg",
+    "age": 14,
+    "description": "Una donna deve confrontarsi con il suo oscuro passato quando il suo primo amore torna nella sua vita, portando con sé segreti sepolti e pericoli inaspettati."
+  },
+  {
+    "id": 56,
+    "title": "The Midsight Rose",
+    "image": "./src/imgs/romance/romance9.jpg",
+    "age": 14,
+    "description": "Una giovane donna, erede di una ricca famiglia, deve scegliere tra il suo dovere di sposare un nobile e il suo amore per un misterioso musicista."
+  },
+  {
+    "id": 57,
+    "title": "The notebook",
+    "image": "./src/imgs/romance/romance10.jpg",
+    "age": 14,
+    "description": "Una tenera storia d'amore che attraversa decenni, raccontata attraverso le pagine di un diario tenuto da un uomo che si aggrappa al ricordo del suo grande amore."
+  },
+  {
+    "id": 58,
+    "title": "Noi due come in un sogno",
+    "image": "./src/imgs/romance/romance11.jpg",
+    "age": 14,
+    "description": "Due sconosciuti si incontrano per caso in una notte magica a New York e si ritrovano a vivere un'intensa storia d'amore, ma il destino potrebbe mettere alla prova il loro amore."
+  },
+  {
+    "id": 59,
+    "title": "Nei tuoi occhi",
+    "image": "./src/imgs/romance/romance12.jpg",
+    "age": 14,
+    "description": "Una storia di amore e perdono, dove una donna deve affrontare"
+  },
+  {
+    "id": 60,
+    "title": "The girl on the train",
+    "image": "./src/imgs/thriller/thriller1.jpg",
+    "age": 16,
+    "description": "La vita di una donna prende una svolta inaspettata quando diventa ossessionata dalla vita di una coppia che osserva dal finestrino del treno, solo per trovarsi coinvolta in un mistero di scomparsa."
+  },
+  {
+    "id": 61,
+    "title": "The Da Vinci Code",
+    "image": "./src/imgs/thriller/thriller2.jpg",
+    "age": 16,
+    "description": "Un simbologo e una criptologa si trovano coinvolti in una caccia al tesoro globale per risolvere un enigma legato a segreti millenari e società segrete."
+  },
+  {
+    "id": 62,
+    "title": "The silence of the lambs",
+    "image": "./src/imgs/thriller/thriller3.jpg",
+    "age": 16,
+    "description": "Una giovane agente dell'FBI deve collaborare con un brillante ma pericoloso serial killer imprigionato per catturare un altro assassino in libertà, immergendosi in un mondo oscuro e disturbante."
+  },
+  {
+    "id": 63,
+    "title": "In the woods",
+    "image": "./src/imgs/thriller/thriller4.jpg",
+    "age": 16,
+    "description": "Un detective irlandese deve affrontare i suoi demoni del passato quando indaga su un omicidio che potrebbe essere collegato alla scomparsa della sua infanzia."
+  },
+  {
+    "id": 64,
+    "title": "The girl without the dragon tattoo",
+    "image": "./src/imgs/thriller/thriller5.jpg",
+    "age": 16,
+    "description": "Un giornalista e una hacker talentuosa si trovano coinvolti in un intrigo di corruzione e violenza quando indagano su un caso di scomparsa di una giovane donna avvenuta quarant'anni prima."
+  },
+  {
+    "id": 65,
+    "title": "Behind closed doors",
+    "image": "./src/imgs/thriller/thriller6.jpg",
+    "age": 16,
+    "description": "Una donna scopre che il suo affascinante marito nasconde un lato oscuro e pericoloso dietro porte chiuse, costringendola a lottare per la sua stessa sopravvivenza."
+  },
+  {
+    "id": 66,
+    "title": "The bourne identity",
+    "image": "./src/imgs/thriller/thriller7.jpg",
+    "age": 16,
+    "description": "Un uomo senza memoria, ma con abilità straordinarie, si trova coinvolto in una cospirazione internazionale che lo porta a mettere in discussione la sua stessa identità e le sue motivazioni."
+  },
+  {
+    "id": 67,
+    "title": "The cuckoo's calling",
+    "image": "./src/imgs/thriller/thriller8.jpg",
+    "age": 16,
+    "description": "Un detective privato e la sua assistente si trovano a investigare su un presunto suicidio che si rivela essere un omicidio complicato, esplorando gli strati più oscuri e nascosti della società britannica."
+  },
+  {
+    "id": 68,
+    "title": "Gone girl",
+    "image": "./src/imgs/thriller/thriller9.jpg",
+    "age": 16,
+    "description": "La scomparsa di una donna sposata porta a una caccia mediatica e a sconvolgenti rivelazioni sulla sua vita privata, mettendo in discussione la verità e la fiducia nella coppia."
+  },
+  {
+    "id": 69,
+    "title": "The woman in the window",
+    "image": "./src/imgs/thriller/thriller10.jpg",
+    "age": 16,
+    "description": "Una donna con agorafobia testimonia un crimine che avviene di fronte alla sua finestra, ma la sua storia viene messa in discussione quando la verità viene distorta dalle sue stesse paure e illusioni."
+  },
+  {
+    "id": 70,
+    "title": "Il simbolo perduto",
+    "image": "./src/imgs/thriller/thriller11.jpg",
+    "age": 16,
+    "description": "Il professore di simbologia Robert Langdon si trova coinvolto in un complotto che coinvolge antiche società segrete, simboli nascosti e una verità che potrebbe cambiare il corso della storia."
+  },
+  {
+    "id": 71,
+    "title": "The woman in cabin 10",
+    "image": "./src/imgs/thriller/thriller12.jpg",
+    "age": 16,
+    "description": "Una giornalista in vacanza su uno yacht di lusso è testimone di un presunto omicidio, ma nessuno sembra credere alla sua storia, costringendola a indagare da sola in un ambiente claustrofobico."
+  }
+]

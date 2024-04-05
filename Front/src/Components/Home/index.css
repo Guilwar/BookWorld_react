@@ -1,0 +1,60 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.page-container-home {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 65px);
+  margin-top: 65px;
+  overflow: auto;
+}
+
+.container-description-home {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.description-home {
+  width: 30%;
+  height: 30%;
+}
+
+.description-title-home {
+  background-image: url(./src/imgs/BookWorld-title-home.png);
+  width: 100%;
+  aspect-ratio: 6/ 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.description-subtitle-home {
+  font-size: xx-large;
+  margin-left: 5%;
+  font-weight: 900;
+}
+
+.description-text-home {
+  font-size: x-large;
+  margin-left: 5%;
+  width: 65%;
+}
+
+.image-container-home {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(./src/imgs/home_img.png);
+  background-size: contain;
+  top: 0;
+  right: 0;
+  transform: scale(0.8);
+  height: 100%;
+  width: 75%;
+  margin-right: -7.5%;
+}
