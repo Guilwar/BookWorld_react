@@ -85,3 +85,13 @@ button.registration-button:hover {
   color: #263837;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .popup {
+    width: 77.5%;
+  }
+
+  .popup-navbar span {
+    font-size: x-large;
+  }
+}

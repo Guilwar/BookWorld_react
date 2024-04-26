@@ -31,13 +31,14 @@ body {
   aspect-ratio: 6/ 1;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .description-subtitle-home {
   font-size: xx-large;
   margin-left: 5%;
   font-weight: 900;
+  width: 100%;
 }
 
 .description-text-home {
@@ -49,12 +50,38 @@ body {
 .image-container-home {
   position: absolute;
   background-repeat: no-repeat;
-  background-image: url(./src/imgs/home_img.png);
+  background-image: url(./src/imgs/Logo_bookworld.png);
   background-size: contain;
   top: 0;
   right: 0;
   transform: scale(0.8);
   height: 100%;
-  width: 75%;
-  margin-right: -7.5%;
+  width: 50%;
+  /* margin-right: -7.5%; */
+}
+
+@media only screen and (max-width: 600px) {
+  .container-description-home {
+    width: 100%;
+    margin: -2%;
+    overflow: hidden;
+  }
+
+  .description-title-home {
+    width: 175%;
+  }
+
+  .description-text-home {
+    width: 100%;
+  }
+
+  .image-container-home {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80%;
+    left: 47.5%;
+    opacity: 0.5;
+    transform: translate(-50%, -50%);
+  }
 }

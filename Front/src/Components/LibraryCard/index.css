@@ -90,6 +90,11 @@ button.acquista-library-card {
   height: 250px;
   width: 250px;
   background-color: rgba(255, 255, 255, 0.37);
+  padding: 5px;
+  text-align: center;
+  color: blue;
+  font-family: cursive;
+  text-shadow: 1px 1px red;
 }
 
 button.acquista-library-card:hover > .information-popup {

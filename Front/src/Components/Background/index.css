@@ -16,3 +16,12 @@
   rotate: 5deg;
   background-image: url("src/imgs/BookWorld_title.gif");
 }
+
+@media only screen and (max-width: 600px) {
+  .intestation-title {
+    width: 65%;
+    top: 0.5%;
+    left: -2.5%;
+    rotate: 15deg;
+  }
+}

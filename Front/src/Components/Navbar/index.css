@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-left: 0.5%;
+  z-index: 99;
 }
 
 .navbarLogo {
@@ -58,6 +59,29 @@ button.navbarLogoHome:hover > .navbarLogoInfoHome {
   border: 0px;
 }
 
+.navbarLogoUser:hover {
+  animation: navbarLogoUser 0.2s ease;
+}
+
+@keyframes navbarLogoUser {
+  0% {
+    transform: translateX(0);
+    scale: (1.1);
+  }
+  25% {
+    transform: translateX(-1.5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(1.5px);
+  }
+}
+
 .navbarLogoInfoUser {
   display: none;
   position: absolute;
@@ -83,6 +107,28 @@ button.navbarLogoUser:hover > .navbarLogoInfoUser {
   width: 35px;
   background-color: transparent;
   border: 0px;
+}
+
+.navbarLogoSearch:hover {
+  animation: navbarLogoSearch 0.2s ease;
+}
+
+@keyframes navbarLogoSearch {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1.5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(1.5px);
+  }
 }
 
 .navbarLogoInfoSearch {
@@ -112,6 +158,28 @@ button.navbarLogoSearch:hover > .navbarLogoInfoSearch {
   border: 0px;
 }
 
+.navbarLogoCategory:hover {
+  animation: navbarLogoCategory 0.2s ease;
+}
+
+@keyframes navbarLogoCategory {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1.5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(1.5px);
+  }
+}
+
 .navbarLogoInfoCategory {
   display: none;
   position: absolute;
@@ -137,6 +205,28 @@ button.navbarLogoCategory:hover > .navbarLogoInfoCategory {
   width: 35px;
   background-color: transparent;
   border: 0px;
+}
+
+.navbarLogoShop:hover {
+  animation: navbarLogoShop 0.2s ease;
+}
+
+@keyframes navbarLogoShop {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-1.5px);
+  }
+  50% {
+    transform: translateX(3px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(1.5px);
+  }
 }
 
 .navbarLogoInfoShop {
@@ -201,5 +291,88 @@ button.navbarLogoShop:hover > .navbarLogoInfoShop {
 
   .hamburger-icon-navbar {
     display: block;
+    margin-right: 5px;
   }
+}
+
+.lateral-bar-navbar {
+  visibility: visible;
+  position: fixed;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #125553;
+  z-index: 10;
+  overflow: hidden;
+  margin-left: -5px;
+}
+
+.lateral-bar-navbar.open {
+  animation: sidebarOpenAnimation 0.8s ease-out forwards;
+}
+
+@keyframes sidebarOpenAnimation {
+  0% {
+    width: 0%;
+  }
+  /*33% {
+    width: 80%;
+  }
+  66% {
+    width: 60%;
+  }*/
+
+  100% {
+    width: 101%;
+  }
+}
+
+.lateral-bar-navbar.close {
+  animation: sidebarCloseAnimation 0.8s ease-out backwards;
+}
+
+@keyframes sidebarCloseAnimation {
+  0% {
+    width: 101%;
+  }
+  /*33% {
+    width: 20%;
+  }
+  66% {
+    width: 40%;
+  }*/
+  100% {
+    width: 0%;
+  }
+}
+
+.close-icon {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  top: 1.5%;
+  left: 1.5%;
+}
+
+.close-icon:hover {
+  transform: scale(1.2);
+}
+
+.side-bar-content {
+  position: fixed;
+  left: 3%;
+  top: 12.5%;
+  height: calc(100% - 12.5%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.element-side-bar-content {
+  font-size: xx-large;
+  width: auto;
+}
+
+.element-side-bar-content:hover {
+  transform: scale(1.1);
 }

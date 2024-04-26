@@ -19,7 +19,8 @@
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
 }
 
 .open-assistance-popup {
@@ -102,4 +103,26 @@ button.confirm-assistance-button {
 
 button.confirm-assistance-button:hover {
   background-color: rgba(128, 128, 128, 0.568);
+}
+
+@media only screen and (max-width: 600px) {
+  .assistance-button-assistance {
+    position: fixed;
+    top: 94%;
+    left: 90%;
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: transparent;
+    border: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .open-background-popup {
+    width: 101%;
+    height: 101%;
+  }
+  .open-assistance-popup {
+    width: 75%;
+  }
 }
