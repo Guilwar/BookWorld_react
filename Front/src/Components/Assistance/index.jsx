@@ -4,7 +4,7 @@ import axios from "axios";
 
 function Assistance({ email }) {
   const [isAssistanceOpen, setIsAssistanceOpen] = useState(false);
-  const [isFormPopupOpen, setIsFormPopupOpen] = useState(false);
+  const [assistanceText, setAssistanceText] = useState("");
 
   const openAssistance = () => {
     setIsAssistanceOpen(true);
@@ -19,6 +19,13 @@ function Assistance({ email }) {
   }
 
   function closePopup() {
+    setIsAssistanceOpen(false);
+  }
+
+  function sendRequest() {
+    if (assistanceText.length === 0) return;
+
+    alert("Richiesta inviata");
     setIsAssistanceOpen(false);
   }
 
@@ -60,21 +67,20 @@ function Assistance({ email }) {
                 </svg>
               </button>
             </div>
-            <form action="" className="container-form-assistance">
-              <span className="email-assistance">
-                Email dell'utente: {email}
-              </span>
+            <div className="container-form-assistance">
               <textarea
                 className="textarea-assistance"
                 placeholder="Inserisci di seguito il problema da risolvere"
+                onChange={(e) => setAssistanceText(e.target.value)}
+                value={assistanceText}
               ></textarea>
               <button
                 className="confirm-assistance-button"
-                onClick={closePopup}
+                onClick={sendRequest}
               >
                 Invia richiesta
               </button>
-            </form>
+            </div>
           </div>
         </div>
       )}

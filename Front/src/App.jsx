@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -11,8 +11,12 @@ import Library from "./Components/Library";
 import Category from "./Components/Category";
 import Search from "./Components/Search";
 import Shop from "./Components/Shop";
+import AOS from "aos";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const [count, setCount] = useState(0);
 
   return (
@@ -20,7 +24,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="" element={<Home />} />
-
           <Route path="home" element={<Home />} />
           <Route path="category" element={<Category />} />
           <Route path="library" element={<Library />} />

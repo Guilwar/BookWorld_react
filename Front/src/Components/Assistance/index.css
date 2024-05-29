@@ -34,7 +34,7 @@
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 7.5px;
 }
 
 .title-assistance-popup {
@@ -62,7 +62,7 @@ button.close-popup-assistance svg:hover {
   stroke: red;
 }
 
-form.container-form-assistance {
+.container-form-assistance {
   display: flex;
   padding: 10%;
   row-gap: 1.5rem;
@@ -75,7 +75,7 @@ form.container-form-assistance {
 
 textarea.textarea-assistance {
   width: 100%;
-  height: 7.5rem;
+  height: 11rem;
   background-color: white;
   border: 1px solid red;
   font-size: large;

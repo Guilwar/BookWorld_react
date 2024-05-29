@@ -37,7 +37,7 @@ function LibraryCard({ title, image, age, description }) {
           <div className="required-age-library-card">
             Età consigliata: {age}
           </div>
-          <button className="acquista-library-card" onClick={openShopPopup}>
+          {/* <button className="acquista-library-card" onClick={openShopPopup}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -52,7 +52,7 @@ function LibraryCard({ title, image, age, description }) {
               />
             </svg>
             <div className="information-popup">Metti nel carrello</div>
-          </button>
+          </button> */}
         </div>
       </div>
     </>

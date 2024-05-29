@@ -21,7 +21,8 @@ function Navbar({ counterShop }) {
   return (
     <>
       <div className="navbar">
-        <Link to="/home">
+        <div className="logo-navbar"></div>
+        {/* <Link to="/home">
           <button className="navbarLogoHome">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,10 +39,29 @@ function Navbar({ counterShop }) {
             </svg>
             <div className="navbarLogoInfoHome">Home</div>
           </button>
-        </Link>
+        </Link> */}
 
         <div className="navbarButton">
-          <Link to="/login">
+          <Link to="/home">
+            <button className="navbarLogoHome">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                />
+              </svg>
+              <div className="navbarLogoInfoHome">Home</div>
+            </button>
+          </Link>
+
+          {/* <Link to="/login">
             <button className="navbarLogoUser">
               <svg
                 className="user"
@@ -59,7 +79,7 @@ function Navbar({ counterShop }) {
               </svg>
               <div className="navbarLogoInfoUser">Login</div>
             </button>
-          </Link>
+          </Link> */}
 
           <Link to="/search">
             <button className="navbarLogoSearch">
@@ -99,7 +119,7 @@ function Navbar({ counterShop }) {
             </button>
           </Link>
 
-          <Link to="/shop">
+          {/* <Link to="/shop">
             <div className="popupShop">{counterShop}</div>
             <button className="navbarLogoShop">
               <svg
@@ -119,7 +139,7 @@ function Navbar({ counterShop }) {
 
               <div className="navbarLogoInfoShop">Carrello</div>
             </button>
-          </Link>
+          </Link> */}
 
           {/* <div className="navbarLogo">
             <svg
@@ -164,25 +184,30 @@ function Navbar({ counterShop }) {
         >
           {isHamburgerOpen && (
             <div onClick={CloseHamburger}>
-              <svg
-                className="close-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="white"
-                strokeWidth={1.5}
-                viewBox="0 0 24 24"
-                stroke="white"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18 18 6M6 6l12 12"
-                />
-              </svg>
+              <div className="intestation-sidebar">
+                <div>
+                  <svg
+                    className="close-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="white"
+                    strokeWidth={1.5}
+                    viewBox="0 0 24 24"
+                    stroke="white"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M6 18 18 6M6 6l12 12"
+                    />
+                  </svg>
+                </div>
+                <div className="element-intestation-sidebar">BookWorld</div>
+              </div>
+
               <div className="side-bar-content">
-                <Link to="/login">
-                  <button className="navbarLogoUser">
+                <Link to="/home">
+                  <button className="navbarLogoHome">
                     <svg
-                      className="user"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -192,10 +217,10 @@ function Navbar({ counterShop }) {
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                        d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                       />
                     </svg>
-                    <div className="navbarLogoInfoUser">Login</div>
+                    <div className="navbarLogoInfoHome">Home</div>
                   </button>
                 </Link>
                 <Link to="/search">
@@ -234,7 +259,7 @@ function Navbar({ counterShop }) {
                     <div className="navbarLogoInfoCategory">Catalogo</div>
                   </button>
                 </Link>
-                <Link to="/shop">
+                {/* <Link to="/shop">
                   <button className="navbarLogoShop">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -253,7 +278,7 @@ function Navbar({ counterShop }) {
 
                     <div className="navbarLogoInfoShop">Carrello</div>
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </div>
           )}

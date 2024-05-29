@@ -6,7 +6,8 @@
     "age": 12,
     "description": "Un gruppo di naufraghi si ritrova su un'isola apparentemente deserta, ma presto scoprono che nasconde molti segreti e pericoli.",
     "price": 10.5,
-    "author": "Jules Verne"
+    "author": "Jules Verne",
+    "categoryId": 1
   },
   {
     "id": 1,
@@ -15,7 +16,8 @@
     "age": 12,
     "description": "Un giovane ragazzo, Jim Hawkins, trova una mappa del tesoro e parte per una straordinaria avventura alla ricerca di ricchezze nascoste e pirati spietati.",
     "price": 11.5,
-    "author": "Robert Louis Stevenson"
+    "author": "Robert Louis Stevenson",
+    "categoryId": 1
   },
   {
     "id": 2,
@@ -24,7 +26,8 @@
     "age": 14,
     "description": "Una spedizione scientifica in Antartide scopre antiche rovine e creature misteriose, portando alla luce orrori che sfidano la comprensione umana.",
     "price": 12.5,
-    "author": "H.P. Lovecraft"
+    "author": "H.P. Lovecraft",
+    "categoryId": 1
   },
   {
     "id": 3,
@@ -33,7 +36,8 @@
     "age": 12,
     "description": "Le avventure di un giovane ragazzo ribelle nel Sud degli Stati Uniti nel XIX secolo, tra ingegnose bravate e misteri da risolvere.",
     "price": 9.5,
-    "author": "Mark Twain"
+    "author": "Mark Twain",
+    "categoryId": 1
   },
   {
     "id": 4,
@@ -42,7 +46,8 @@
     "age": 14,
     "description": "Una raccolta di racconti orientali, ricca di avventure, magia e intrighi, narrati dalla leggendaria Sherazade per sopravvivere.",
     "price": 17.5,
-    "author": "Anonimo"
+    "author": "Anonimo",
+    "categoryId": 1
   },
   {
     "id": 5,
@@ -51,7 +56,8 @@
     "age": 14,
     "description": "Una trilogia epica che segue le gesta di Frodo Baggins nella sua missione per distruggere l'Anello del Potere e sconfiggere il Signore Oscuro Sauron.",
     "price": 12.5,
-    "author": "J.R.R. Tolkien"
+    "author": "J.R.R. Tolkien",
+    "categoryId": 1
   },
   {
     "id": 6,
@@ -60,7 +66,8 @@
     "age": 12,
     "description": "Il ricco eccentrico Phileas Fogg scommette che può circumnavigare il globo in soli 80 giorni, intraprendendo un viaggio avventuroso e pieno di ostacoli.",
     "price": 10.5,
-    "author": "Jules Verne"
+    "author": "Jules Verne",
+    "categoryId": 1
   },
   {
     "id": 7,
@@ -69,7 +76,8 @@
     "age": 12,
     "description": "Un giovane ragazzo, Bastian, si immerge in un libro magico e fantastico dove scopre di avere un ruolo cruciale nella lotta per salvare il mondo di Fantasia.",
     "price": 11.5,
-    "author": "Michael Ende"
+    "author": "Michael Ende",
+    "categoryId": 1
   },
   {
     "id": 8,
@@ -78,7 +86,8 @@
     "age": 12,
     "description": "Un professore e i suoi compagni intraprendono un incredibile viaggio verso il centro della terra, scoprendo mondi sotterranei pieni di meraviglie e pericoli.",
     "price": 10.5,
-    "author": "Jules Verne"
+    "author": "Jules Verne",
+    "categoryId": 1
   },
   {
     "id": 9,
@@ -87,7 +96,8 @@
     "age": 12,
     "description": "Le avventure di un giovane ragazzo ribelle, Huck Finn, e del suo amico Jim, un fuggitivo schiavo, lungo il fiume Mississippi.",
     "price": 12.5,
-    "author": "Mark Twain"
+    "author": "Mark Twain",
+    "categoryId": 1
   },
   {
     "id": 10,
@@ -96,7 +106,8 @@
     "age": 14,
     "description": "In un mondo post-apocalittico, un padre e suo figlio intraprendono un viaggio disperato attraverso un paesaggio desolato alla ricerca di speranza e salvezza.",
     "price": 12.5,
-    "author": "Cormac McCarthy"
+    "author": "Cormac McCarthy",
+    "categoryId": 1
   },
   {
     "id": 11,
@@ -105,7 +116,8 @@
     "age": 14,
     "description": "La struggente storia di Santiago, un vecchio pescatore cubano, e la sua epica lotta con un gigantesco pesce spada nel vasto oceano.",
     "price": 12.5,
-    "author": "Ernest Hemingway"
+    "author": "Ernest Hemingway",
+    "categoryId": 1
   },
   {
     "id": 12,
@@ -114,7 +126,8 @@
     "age": 14,
     "description": "Dopo un incidente aereo, un gruppo di ragazzi si ritrova su un'isola deserta e deve lottare per la sopravvivenza, ma il conflitto interno e la disperazione portano alla barbarie.",
     "price": 12.5,
-    "author": "William Golding"
+    "author": "William Golding",
+    "categoryId": 2
   },
   {
     "id": 13,
@@ -123,7 +136,8 @@
     "age": 16,
     "description": "In un pianeta gelido e lontano, un ambasciatore umano deve navigare in una società aliena senza genere per garantire un'alleanza cruciale.",
     "price": 12.5,
-    "author": "Ursula K. Le Guin"
+    "author": "Ursula K. Le Guin",
+    "categoryId": 2
   },
   {
     "id": 14,
@@ -132,7 +146,8 @@
     "age": 16,
     "description": "In un futuro inquietante, un equipaggio di astronauti viene inviato per incontrare un'entità aliena con capacità di comunicazione incomprensibili.",
     "price": 12.5,
-    "author": "Peter Watts"
+    "author": "Peter Watts",
+    "categoryId": 2
   },
   {
     "id": 15,
@@ -141,7 +156,8 @@
     "age": 14,
     "description": "Un giovane genio militare, Ender Wiggin, viene reclutato per allenare in segreto e guidare le forze umane nella guerra contro una razza aliena ostile.",
     "price": 12.5,
-    "author": "Orson Scott Card"
+    "author": "Orson Scott Card",
+    "categoryId": 2
   },
   {
     "id": 16,
@@ -150,7 +166,8 @@
     "age": 16,
     "description": "In una società distopica futuristica, il controllo totale e il conformismo sono la norma, ma un individuo inizia a mettere in discussione il sistema.",
     "price": 12.5,
-    "author": "Aldous Huxley"
+    "author": "Aldous Huxley",
+    "categoryId": 2
   },
   {
     "id": 17,
@@ -159,7 +176,8 @@
     "age": 16,
     "description": "Nel regime totalitario di Oceania, un uomo cerca di resistere alla sorveglianza onnipresente e alla manipolazione mentale del governo.",
     "price": 12.5,
-    "author": "George Orwell"
+    "author": "George Orwell",
+    "categoryId": 2
   },
   {
     "id": 18,
@@ -168,7 +186,8 @@
     "age": 16,
     "description": "In un lontano futuro, il giovane Paul Atreides deve navigare nelle politiche complesse e nelle lotte per il potere su un pianeta desertico ricco di misteri.",
     "price": 12.5,
-    "author": "Frank Herbert"
+    "author": "Frank Herbert",
+    "categoryId": 2
   },
   {
     "id": 19,
@@ -177,7 +196,8 @@
     "age": 16,
     "description": "Gli umani devono affrontare una nuova era di evoluzione sotto la guida di esseri alieni misteriosi che portano cambiamenti radicali alla società terrestre.",
     "price": 12.5,
-    "author": "Arthur C. Clarke"
+    "author": "Arthur C. Clarke",
+    "categoryId": 2
   },
   {
     "id": 20,
@@ -186,7 +206,8 @@
     "age": 14,
     "description": "Un viaggiatore spaziale terrestre viene coinvolto in avventure assurde e bizzarre mentre esplora l'universo con una guida galattica per autostoppisti.",
     "price": 12.5,
-    "author": "Douglas Adams"
+    "author": "Douglas Adams",
+    "categoryId": 2
   },
   {
     "id": 21,
@@ -195,7 +216,8 @@
     "age": 16,
     "description": "Seguito della saga di Dune, con intrighi politici, guerra e profonde riflessioni sulla religione, la natura umana e il destino dell'universo.",
     "price": 12.5,
-    "author": "Frank Herbert"
+    "author": "Frank Herbert",
+    "categoryId": 2
   },
   {
     "id": 22,
@@ -204,7 +226,8 @@
     "age": 14,
     "description": "In un universo di Star Wars, Luke Skywalker e i suoi alleati devono affrontare una nuova minaccia con l'ascesa di un'arma temibile.",
     "price": 12.5,
-    "author": "Kevin J. Anderson"
+    "author": "Kevin J. Anderson",
+    "categoryId": 2
   },
   {
     "id": 23,
@@ -213,7 +236,8 @@
     "age": 14,
     "description": "Una spedizione verso la luna di Saturno, Encelado, rivela misteri sconvolgenti che mettono in discussione le fondamenta della conoscenza umana.",
     "price": 12.5,
-    "author": "Arthur C. Clarke"
+    "author": "Arthur C. Clarke",
+    "categoryId": 2
   },
   {
     "id": 24,
@@ -222,7 +246,8 @@
     "age": 14,
     "description": "Le indagini del celebre detective Sherlock Holmes e del suo fedele compagno, il dottor Watson, risolvendo misteri intricati e crimini apparentemente insolubili.",
     "price": 12.5,
-    "author": "Sir Arthur Conan Doyle"
+    "author": "Sir Arthur Conan Doyle",
+    "categoryId": 3
   },
   {
     "id": 25,
@@ -231,7 +256,8 @@
     "age": 16,
     "description": "In una clinica psichiatrica, un paziente apparentemente normale si rivela essere un maestro manipolatore, coinvolgendo uno psichiatra in un pericoloso gioco mentale.",
     "price": 12.5,
-    "author": "Alex Michaelides"
+    "author": "Alex Michaelides",
+    "categoryId": 3
   },
   {
     "id": 26,
@@ -240,7 +266,8 @@
     "age": 16,
     "description": "In un remoto villaggio artico, un detective deve risolvere un omicidio complicato e oscuro che rivela segreti sepolti da tempo.",
     "price": 12.5,
-    "author": "Michał Witkowski"
+    "author": "Michał Witkowski",
+    "categoryId": 3
   },
   {
     "id": 27,
@@ -249,7 +276,8 @@
     "age": 16,
     "description": "Una donna ambiziosa si infiltra nella vita di una ricca famiglia con l'intento di rubare il marito, ma presto scopre che anche lei è una pedina in un gioco pericoloso.",
     "price": 12.5,
-    "author": "Liv Constantine"
+    "author": "Liv Constantine",
+    "categoryId": 3
   },
   {
     "id": 28,
@@ -258,7 +286,8 @@
     "age": 16,
     "description": "Il detective Hercule Poirot si trova alle prese con un intricato caso di omicidio su un lussuoso treno, dove ogni passeggero ha un motivo per commettere il crimine.",
     "price": 12.5,
-    "author": "Sophie Hannah"
+    "author": "Sophie Hannah",
+    "categoryId": 3
   },
   {
     "id": 29,
@@ -267,7 +296,8 @@
     "age": 16,
     "description": "Una donna inizia a sospettare che il suo nuovo vicino di casa potrebbe essere un pericoloso assassino, ma le sue indagini mettono a rischio la sua stessa vita.",
     "price": 12.5,
-    "author": "Christi Daugherty"
+    "author": "Christi Daugherty",
+    "categoryId": 3
   },
   {
     "id": 30,
@@ -276,7 +306,8 @@
     "age": 16,
     "description": "Durante un matrimonio esclusivo su un'isola remota, segreti sepolti vengono alla luce e vecchie rivalità sfociano in un omicidio che sconvolge tutti gli invitati.",
     "price": 12.5,
-    "author": "Lucy Foley"
+    "author": "Lucy Foley",
+    "categoryId": 3
   },
   {
     "id": 31,
@@ -285,7 +316,8 @@
     "age": 16,
     "description": "Un serial killer che lascia dietro di sé solo cadaveri invisibili mette a dura prova un detective e una profiler, sfidandoli a catturare un assassino che sembra impossibile da individuare.",
     "price": 12.5,
-    "author": "James Patterson"
+    "author": "James Patterson",
+    "categoryId": 3
   },
   {
     "id": 32,
@@ -294,7 +326,8 @@
     "age": 16,
     "description": "Una giovane donna deve risolvere un misterioso omicidio legato a un antico orologio spezzato, scoprendo oscure verità nascoste nel passato della sua famiglia.",
     "price": 12.5,
-    "author": "Ruth Ware"
+    "author": "Ruth Ware",
+    "categoryId": 3
   },
   {
     "id": 33,
@@ -303,7 +336,8 @@
     "age": 16,
     "description": "Dopo il sospetto suicidio di una famosa attrice, un reporter investigativo scopre un intricato intreccio di segreti, menzogne e tradimenti che potrebbe rivelare la verità.",
     "price": 12.5,
-    "author": "Natasha A. Salnikova"
+    "author": "Natasha A. Salnikova",
+    "categoryId": 3
   },
   {
     "id": 34,
@@ -312,7 +346,8 @@
     "age": 14,
     "description": "Sherlock Holmes torna per risolvere una serie di nuovi misteri, dimostrando ancora una volta la sua abilità deduttiva inconfondibile.",
     "price": 12.5,
-    "author": "Arthur Conan Doyle"
+    "author": "Arthur Conan Doyle",
+    "categoryId": 3
   },
   {
     "id": 35,
@@ -321,7 +356,8 @@
     "age": 14,
     "description": "Sherlock Holmes e il dottor Watson devono risolvere il mistero di un tesoro scomparso, che porta a una catena di eventi che mettono a rischio la vita di tutti gli interessati.",
     "price": 12.5,
-    "author": "Arthur Conan Doyle"
+    "author": "Arthur Conan Doyle",
+    "categoryId": 3
   },
   {
     "id": 36,
@@ -330,7 +366,8 @@
     "age": 16,
     "description": "La storia di un giovane scienziato che, spinto dall'ambizione e dall'arroganza, crea una creatura mostruosa che si ribella al suo creatore.",
     "price": 12.5,
-    "author": "Mary Shelley"
+    "author": "Mary Shelley",
+    "categoryId": 4
   },
   {
     "id": 37,
@@ -339,7 +376,8 @@
     "age": 16,
     "description": "Un gruppo di persone viene invitato a trascorrere una notte in una casa infestata per investigare su fenomeni paranormali, ma si trovano faccia a faccia con terrore indicibile.",
     "price": 12.5,
-    "author": "Richard Matheson"
+    "author": "Richard Matheson",
+    "categoryId": 4
   },
   {
     "id": 38,
@@ -348,7 +386,8 @@
     "age": 16,
     "description": "Un gruppo di amici intraprende un escursione in una foresta remota, solo per scoprire che sono braccati da una presenza malvagia e antica che li spinge al limite della sopravvivenza.",
     "price": 12.5,
-    "author": "Adam Nevill"
+    "author": "Adam Nevill",
+    "categoryId": 4
   },
   {
     "id": 39,
@@ -357,7 +396,8 @@
     "age": 16,
     "description": "Una giovane donna si trasferisce in una casa isolata con il suo fidanzato, ma presto scopre che la casa nasconde segreti inquietanti e pericolosi.",
     "price": 12.5,
-    "author": "Emma Cline"
+    "author": "Emma Cline",
+    "categoryId": 4
   },
   {
     "id": 40,
@@ -366,7 +406,8 @@
     "age": 16,
     "description": "Una giovane governante si trova a combattere contro forze oscure e presenze sinistre mentre cerca di proteggere due bambini in una casa infestata.",
     "price": 12.5,
-    "author": "Henry James"
+    "author": "Henry James",
+    "categoryId": 4
   },
   {
     "id": 41,
@@ -375,7 +416,8 @@
     "age": 16,
     "description": "Una famiglia in vacanza viene presa di mira da un gruppo di cultisti, che li costringe a prendere decisioni estreme per sopravvivere a un'apocalisse imminente.",
     "price": 12.5,
-    "author": "Paul Tremblay"
+    "author": "Paul Tremblay",
+    "categoryId": 4
   },
   {
     "id": 42,
@@ -384,7 +426,8 @@
     "age": 16,
     "description": "Un uomo assume il ruolo di guardiano invernale in un hotel isolato, solo per scoprire che l'hotel nasconde presenze malevole che minacciano la sua stessa sanità mentale.",
     "price": 12.5,
-    "author": "Stephen King"
+    "author": "Stephen King",
+    "categoryId": 4
   },
   {
     "id": 43,
@@ -393,7 +436,8 @@
     "age": 16,
     "description": "Il figlio di Rosemary, Adrian, cresciuto sotto l'influenza sinistra del padre demoniaco, si trova coinvolto in un destino oscuro e sinistro che minaccia il mondo intero.",
     "price": 12.5,
-    "author": "Ira Levin"
+    "author": "Ira Levin",
+    "categoryId": 4
   },
   {
     "id": 44,
@@ -402,7 +446,8 @@
     "age": 16,
     "description": "In un mondo dove osservare creature misteriose porta alla pazzia e alla morte, una madre deve proteggere i suoi figli durante un viaggio pericoloso lungo un fiume.",
     "price": 12.5,
-    "author": "Josh Malerman"
+    "author": "Josh Malerman",
+    "categoryId": 4
   },
   {
     "id": 45,
@@ -411,7 +456,8 @@
     "age": 16,
     "description": "La storia di Norman Bates e del suo motel desolato, dove gli ospiti sono accolti con sorrisi sinistri e orrori indicibili.",
     "price": 12.5,
-    "author": "Robert Bloch"
+    "author": "Robert Bloch",
+    "categoryId": 4
   },
   {
     "id": 46,
@@ -420,7 +466,8 @@
     "age": 16,
     "description": "Un sacerdote viene chiamato per esorcizzare una ragazza posseduta dal demonio, ma si trova ad affrontare un male antico e potente che mette a rischio la sua stessa fede.",
     "price": 12.5,
-    "author": "William Peter Blatty"
+    "author": "William Peter Blatty",
+    "categoryId": 4
   },
   {
     "id": 47,
@@ -429,7 +476,8 @@
     "age": 16,
     "description": "Dopo un incidente d'auto, un famoso scrittore è tenuto prigioniero da una sua fan ossessiva, che lo costringe a scrivere il seguito del suo libro preferito.",
     "price": 12.5,
-    "author": "Stephen King"
+    "author": "Stephen King",
+    "categoryId": 4
   },
   {
     "id": 48,
@@ -438,7 +486,8 @@
     "age": 14,
     "description": "Una delle storie d'amore più celebri di tutti i tempi, che narra della passione travolgente e della tragedia di due giovani amanti divisi da famiglie nemiche.",
     "price": 12.5,
-    "author": "William Shakespeare"
+    "author": "William Shakespeare",
+    "categoryId": 5
   },
   {
     "id": 49,
@@ -447,7 +496,8 @@
     "age": 14,
     "description": "Una commedia romantica classica che racconta la storia dell'orgogliosa Elizabeth Bennet e del riservato Mr. Darcy, i cui pregiudizi iniziali si trasformano in amore.",
     "price": 12.5,
-    "author": "Jane Austen"
+    "author": "Jane Austen",
+    "categoryId": 5
   },
   {
     "id": 50,
@@ -456,7 +506,8 @@
     "age": 16,
     "description": "Un epico romanzo di amore e tragedia ambientato nella Russia aristocratica, che esplora le relazioni umane complesse e le conseguenze delle scelte sbagliate.",
     "price": 12.5,
-    "author": "Leo Tolstoy"
+    "author": "Leo Tolstoy",
+    "categoryId": 5
   },
   {
     "id": 51,
@@ -465,7 +516,8 @@
     "age": 14,
     "description": "La storia epistolare di un gentiluomo del XIX secolo, le cui vicende sentimentali e le riflessioni sull'amore e la società rivelano un ritratto intimo dell'epoca.",
     "price": 12.5,
-    "author": "Arthur Conan Doyle"
+    "author": "Arthur Conan Doyle",
+    "categoryId": 5
   },
   {
     "id": 52,
@@ -474,7 +526,8 @@
     "age": 14,
     "description": "Inspirato al celebre dipinto di Vermeer, questo romanzo immagina la vita dietro le quinte di una delle opere d'arte più enigmatiche della storia.",
     "price": 12.5,
-    "author": "Tracy Chevalier"
+    "author": "Tracy Chevalier",
+    "categoryId": 5
   },
   {
     "id": 53,
@@ -483,7 +536,8 @@
     "age": 14,
     "description": "Una toccante storia d'amore tra due adolescenti, segnata dalla comunicazione non detta e dai segreti tenuti nascosti, che li spinge a confrontarsi con la verità.",
     "price": 12.5,
-    "author": "Jojo Moyes"
+    "author": "Jojo Moyes",
+    "categoryId": 5
   },
   {
     "id": 54,
@@ -492,7 +546,8 @@
     "age": 16,
     "description": "Una storia di passione e inganno, dove le bugie e i tradimenti minacciano di distruggere una famiglia apparentemente perfetta.",
     "price": 12.5,
-    "author": "Gillian Flynn"
+    "author": "Gillian Flynn",
+    "categoryId": 5
   },
   {
     "id": 55,
@@ -501,7 +556,8 @@
     "age": 14,
     "description": "Una donna deve confrontarsi con il suo oscuro passato quando il suo primo amore torna nella sua vita, portando con sé segreti sepolti e pericoli inaspettati.",
     "price": 12.5,
-    "author": "Nora Roberts"
+    "author": "Nora Roberts",
+    "categoryId": 5
   },
   {
     "id": 56,
@@ -510,7 +566,8 @@
     "age": 14,
     "description": "Una giovane donna, erede di una ricca famiglia, deve scegliere tra il suo dovere di sposare un nobile e il suo amore per un misterioso musicista.",
     "price": 12.5,
-    "author": "Lucinda Riley"
+    "author": "Lucinda Riley",
+    "categoryId": 5
   },
   {
     "id": 57,
@@ -519,7 +576,8 @@
     "age": 14,
     "description": "Una tenera storia d'amore che attraversa decenni, raccontata attraverso le pagine di un diario tenuto da un uomo che si aggrappa al ricordo del suo grande amore.",
     "price": 12.5,
-    "author": "Nicholas Sparks"
+    "author": "Nicholas Sparks",
+    "categoryId": 5
   },
   {
     "id": 58,
@@ -528,7 +586,8 @@
     "age": 14,
     "description": "Due sconosciuti si incontrano per caso in una notte magica a New York e si ritrovano a vivere un'intensa storia d'amore, ma il destino potrebbe mettere alla prova il loro amore.",
     "price": 12.5,
-    "author": "Federico Moccia"
+    "author": "Federico Moccia",
+    "categoryId": 5
   },
   {
     "id": 59,
@@ -537,7 +596,8 @@
     "age": 14,
     "description": "Una storia di amore e perdono, dove una donna deve affrontare",
     "price": 12.5,
-    "author": "Nicholas Sparks"
+    "author": "Nicholas Sparks",
+    "categoryId": 5
   },
   {
     "id": 60,
@@ -546,7 +606,8 @@
     "age": 16,
     "description": "La vita di una donna prende una svolta inaspettata quando diventa ossessionata dalla vita di una coppia che osserva dal finestrino del treno, solo per trovarsi coinvolta in un mistero di scomparsa.",
     "price": 12.5,
-    "author": "Paula Hawkins"
+    "author": "Paula Hawkins",
+    "categoryId": 6
   },
   {
     "id": 61,
@@ -555,7 +616,8 @@
     "age": 16,
     "description": "Un simbologo e una criptologa si trovano coinvolti in una caccia al tesoro globale per risolvere un enigma legato a segreti millenari e società segrete.",
     "price": 12.5,
-    "author": "Dan Brown"
+    "author": "Dan Brown",
+    "categoryId": 6
   },
   {
     "id": 62,
@@ -564,7 +626,8 @@
     "age": 16,
     "description": "Una giovane agente dell'FBI deve collaborare con un brillante ma pericoloso serial killer imprigionato per catturare un altro assassino in libertà, immergendosi in un mondo oscuro e disturbante.",
     "price": 12.5,
-    "author": "Thomas Harris"
+    "author": "Thomas Harris",
+    "categoryId": 6
   },
   {
     "id": 63,
@@ -573,7 +636,8 @@
     "age": 16,
     "description": "Un detective irlandese deve affrontare i suoi demoni del passato quando indaga su un omicidio che potrebbe essere collegato alla scomparsa della sua infanzia.",
     "price": 12.5,
-    "author": "Tana French"
+    "author": "Tana French",
+    "categoryId": 6
   },
   {
     "id": 64,
@@ -582,7 +646,8 @@
     "age": 16,
     "description": "Un giornalista e una hacker talentuosa si trovano coinvolti in un intrigo di corruzione e violenza quando indagano su un caso di scomparsa di una giovane donna avvenuta quarant'anni prima.",
     "price": 12.5,
-    "author": "Stieg Larsson"
+    "author": "Stieg Larsson",
+    "categoryId": 6
   },
   {
     "id": 65,
@@ -591,7 +656,8 @@
     "age": 16,
     "description": "Una donna scopre che il suo affascinante marito nasconde un lato oscuro e pericoloso dietro porte chiuse, costringendola a lottare per la sua stessa sopravvivenza.",
     "price": 12.5,
-    "author": "B.A. Paris"
+    "author": "B.A. Paris",
+    "categoryId": 6
   },
   {
     "id": 66,
@@ -600,7 +666,8 @@
     "age": 16,
     "description": "Un uomo senza memoria, ma con abilità straordinarie, si trova coinvolto in una cospirazione internazionale che lo porta a mettere in discussione la sua stessa identità e le sue motivazioni.",
     "price": 12.5,
-    "author": "Robert Ludlum"
+    "author": "Robert Ludlum",
+    "categoryId": 6
   },
   {
     "id": 67,
@@ -609,7 +676,8 @@
     "age": 16,
     "description": "Un detective privato e la sua assistente si trovano a investigare su un presunto suicidio che si rivela essere un omicidio complicato, esplorando gli strati più oscuri e nascosti della società britannica.",
     "price": 12.5,
-    "author": "Robert Galbraith (J.K. Rowling)"
+    "author": "Robert Galbraith (J.K. Rowling)",
+    "categoryId": 6
   },
   {
     "id": 68,
@@ -618,7 +686,8 @@
     "age": 16,
     "description": "La scomparsa di una donna sposata porta a una caccia mediatica e a sconvolgenti rivelazioni sulla sua vita privata, mettendo in discussione la verità e la fiducia nella coppia.",
     "price": 12.5,
-    "author": "Gillian Flynn"
+    "author": "Gillian Flynn",
+    "categoryId": 6
   },
   {
     "id": 69,
@@ -627,7 +696,8 @@
     "age": 16,
     "description": "Una donna con agorafobia testimonia un crimine che avviene di fronte alla sua finestra, ma la sua storia viene messa in discussione quando la verità viene distorta dalle sue stesse paure e illusioni.",
     "price": 12.5,
-    "author": "A.J. Finn"
+    "author": "A.J. Finn",
+    "categoryId": 6
   },
   {
     "id": 70,
@@ -636,7 +706,8 @@
     "age": 16,
     "description": "Il professore di simbologia Robert Langdon si trova coinvolto in un complotto che coinvolge antiche società segrete, simboli nascosti e una verità che potrebbe cambiare il corso della storia.",
     "price": 12.5,
-    "author": "Dan Brown"
+    "author": "Dan Brown",
+    "categoryId": 6
   },
   {
     "id": 71,
@@ -645,6 +716,7 @@
     "age": 16,
     "description": "Una giornalista in vacanza su uno yacht di lusso è testimone di un presunto omicidio, ma nessuno sembra credere alla sua storia, costringendola a indagare da sola in un ambiente claustrofobico.",
     "price": 12.5,
-    "author": "Ruth Ware"
+    "author": "Ruth Ware",
+    "categoryId": 6
   }
 ]

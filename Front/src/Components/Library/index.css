@@ -10,7 +10,11 @@
 .title-library {
   color: rgb(255, 98, 0);
   font-weight: 900;
-  font-size: large;
+  font-size: x-large;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-container-library {
@@ -25,4 +29,11 @@
   /* padding-bottom: 1.5%; */
   padding-left: 3%;
   margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-library {
+    font-size: large;
+    margin: 1rem;
+  }
 }

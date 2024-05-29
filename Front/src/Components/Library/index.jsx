@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import "./index.css";
 import Navbar from "../Navbar";
 import LibraryCard from "../LibraryCard";
@@ -7,25 +8,36 @@ import Assistance from "../Assistance";
 
 function Library() {
   const [books, setBooks] = useState([]);
+  const [searchParams, setSearchParams] = useSearchParams();
+
+  console.log(searchParams.get("categoryId"));
+
+  let categoryId = searchParams.get("categoryId")
+    ? parseInt(searchParams.get("categoryId"))
+    : null;
+  console.log(books);
+  let filteredBooks = books.filter((b) => b.categoryId === categoryId);
+
+  console.log(filteredBooks);
 
   useEffect(() => {
     axios.get("/src/Components/Data/libri.json").then((res) => {
       setBooks(res.data);
     });
   }, []);
+
   return (
     <>
       <Navbar />
       <div className="page-container-library">
         <span className="title-library">
-          Seleziona la categoria da te desiderata!
+          Sfoglia la nostra galleria di libri!
         </span>
         <div />
-
         {/* CategoryCard */}
         <div className="grid-container-library">
-          {books?.length > 0 &&
-            books.map((c) => (
+          {filteredBooks?.length > 0 &&
+            filteredBooks.map((c) => (
               <LibraryCard
                 key={c.id}
                 title={c.title}

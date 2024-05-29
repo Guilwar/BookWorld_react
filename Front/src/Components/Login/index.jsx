@@ -1,9 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
 import BackGround from "../Background";
+import { BrowserRouter, useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [isButtonEnabled, setIsButtonEnabled] = useState(false);
+  const [canLogin, setCanLogin] = useState(false);
+  const navigator = useNavigate();
+  const message = () => {
+    alert("Errore");
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+    checkButtonStatus(e.target.value, password);
+  };
+
+  const handlePasswordChange = (e) => {
+    setPassword(e.target.value);
+    checkButtonStatus(e.target.value, email);
+  };
+
+  const checkButtonStatus = (email, password) => {
+    if (email.length > 0 && password.length > 0) {
+      setIsButtonEnabled(true);
+    } else {
+      setIsButtonEnabled(false);
+    }
+  };
+
+  const login = async () => {
+    const response = await axios.get("http//localhost:3000/user/login", {
+      username: email,
+      password,
+    });
+    alert("Login successful");
+    navigator("/home");
+  };
+
   return (
     <>
       <BackGround />
@@ -17,6 +55,7 @@ function Login() {
               type="text"
               name="email"
               placeholder="Inserire email"
+              onChange={(e) => handleEmailChange(e)}
               className="insertion-box"
               autoComplete="off"
             />
@@ -27,14 +66,35 @@ function Login() {
               type="text"
               name="password"
               placeholder="Inserire password"
+              onChange={(e) => handlePasswordChange(e)}
               className="insertion-box"
               autoComplete="off"
             />
+
             <br />
             <br />
-            <button type="submit" className="registration-button">
+            {isButtonEnabled ? (
+              <button
+                type="submit"
+                className="registration-button-real-login"
+                onClick={() => {
+                  login();
+                }}
+              >
+                <span>Accedi</span>
+              </button>
+            ) : (
+              <button
+                className="registration-button-fake-login"
+                onClick={message}
+              >
+                <span className="">Accedi</span>
+              </button>
+            )}
+
+            {/* <button type="submit" className="registration-button">
               Accedi
-            </button>
+            </button> */}
             <br />
             <br />
 

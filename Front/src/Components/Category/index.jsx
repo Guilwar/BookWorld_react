@@ -10,10 +10,16 @@ function Category() {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    axios.get("/src/Components/Data/categorie.json").then((res) => {
-      setCategories(res.data);
+    axios.post("http://localhost:3000/category/").then((res) => {
+      setCategories(res.data.categoryList);
     });
   }, []);
+
+  // useEffect(() => {
+  //   axios.get("/src/Components/Data/categorie.json").then((res) => {
+  //     setCategories(res.data);
+  //   });
+  // }, []);
 
   return (
     <>
@@ -23,9 +29,9 @@ function Category() {
           Seleziona la categoria da te desiderata!
         </span>
         <div className="grid-container-category">
-          {categories?.length > 0 &&
+          {categories?.length > 1 &&
             categories.map((c) => (
-              <Link to="../library">
+              <Link to={"../library?categoryId=" + c.id}>
                 <CategoryCard key={c.id} title={c.title} image={c.image} />
               </Link>
             ))}
