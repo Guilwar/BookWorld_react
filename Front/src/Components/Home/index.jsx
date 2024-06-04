@@ -14,7 +14,7 @@ function Home() {
             La libreria dei tuoi sogni
           </span>
           <span className="description-text-home">
-            Benvenuto in BookWorld, la libreria dei sogni . Qui troverete un
+            Benvenuto in BookWorld, la libreria dei sogni. Qui troverete un
             rifugio per mente e cuore, dove avventure, conoscenza e emozioni
             prendono vita. Esplorate il vasto assortimento di libri che vi
             condurranno in mondi fantastici, vi arricchiranno con saggezza e vi

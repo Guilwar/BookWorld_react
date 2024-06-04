@@ -264,7 +264,8 @@ div.telegram-logo:hover {
   }
 
   .description-text-home {
-    width: 100%;
+    width: 95%;
+    margin-bottom: 2.5rem;
   }
 
   .image-container-home {

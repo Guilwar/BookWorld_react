@@ -66,7 +66,7 @@ function Search() {
             type="text"
             onChange={handleSearchChange}
             className="textarea-attribute-search"
-            placeholder="Inserisci i parametri di ricerca del libro "
+            placeholder="Cerca libro"
           ></input>
           {/* <input
             className="research-button-search"
